@@ -26,6 +26,8 @@ public class ValidLogin {
 		
 		driver.findElement(By.xpath("//a[@class='btn _prim -fw _md']")).click();
 		
+		driver.close();
+		
 		
 	}
 
